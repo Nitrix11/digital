@@ -4,7 +4,10 @@ import socialmedia from '../images/socialmedia.png';
 
 const SocialMediaPromo = () => {
   return (
-    <section className="promo-section">
+    <>
+    <h2 className='h2'><b>What’s Included In Our Social <span><br /></span>Media Management Promo</b></h2>
+     <section className="promo-section">
+      
           <div className="promo-image">
           {/* Replace the below image with your actual assets */}
           <img src={socialmedia} alt="Promo Visual" />
@@ -12,7 +15,7 @@ const SocialMediaPromo = () => {
       <div className="promo-content">
   
         <div className="promo-text">
-          <h2>What’s Included In Our Social Media Management Promo</h2>
+          
           <div className="promo-details">
             <h3>Unlock the full potential of your brand’s social media presence</h3>
             <ul>
@@ -32,6 +35,8 @@ const SocialMediaPromo = () => {
        
       </div>
     </section>
+    </> 
+    
   );
 };
 

@@ -5,7 +5,7 @@ const Solution = () => {
   return (
     <div className="social-media-solution">
       <div className="solution-content">
-        <h2>We Have Got The Solution For You!!</h2>
+        <h2 className='h222'><b>We Have Got<span><br /></span> The Solution For You!!</b></h2>
         <p>
           "With our expert social media management services, we take care of everything—from strategy to content creation—so you can focus on growing your business."
         </p>

@@ -9,9 +9,10 @@ const HowItWorks = () => {
           <img src={cameras} alt="Camera Equipment" />
         </div>
       <div className="content-wrapper">
-        <h2>How It Works</h2>
-        <p>Simple Process to Elevate Your Social Media</p>
+        <h2 className='h2222'><b>How It Works</b></h2>
+        <p><b>Simple Process to Elevate Your Social Media</b></p>
         <div className="steps">
+        
           <div className="step">
             <div className="step-number">01</div>
             <h3>Sign up for a free consultation</h3>

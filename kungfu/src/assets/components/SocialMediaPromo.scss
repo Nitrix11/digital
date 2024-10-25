@@ -1,3 +1,9 @@
+
+.h2{
+  text-align: center;
+  font-size: 40px;
+  background-color:  #f9f9f9;
+}
 .promo-section {
     display: flex;
     justify-content: center;
@@ -49,6 +55,8 @@
             padding: 0;
   
             li {
+              display: flex;
+              align-items: center;
               margin-bottom: 0.5rem;
               font-size: 1.1rem;
               position: relative;
@@ -56,10 +64,11 @@
   
               &::before {
                 content: "•";
+
                 position: absolute;
                 left: 0;
-                top: 0;
-                color: #ff4747;
+                top: -8px;
+                color: #000000;
                 font-size: 1.5rem;
               }
             }

@@ -1,6 +1,19 @@
 $primary-color: #d90429;
 $secondary-color: #f2f2f2;
+.texts{
+  h2{
+    font-weight: bold;
+    text-align: left;
+  }
+  p{
+    font-weight: bold;
+    text-align: left;
+    font-size: 250px;
 
+  }
+
+ 
+}
 .get-started-today {
   background-color: white;
   padding: 60px 20px;

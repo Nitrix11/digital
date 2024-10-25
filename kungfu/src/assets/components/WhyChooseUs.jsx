@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
     <div className="why-choose-us">
       <div className="content-wrapper">
         <div className="left-content">
-          <h2>Why BUD KREATIVE?</h2>
+          <h2><b>Why BUD KREATIVE?</b></h2>
           <ul>
             <li>Proven track record of driving results.</li>
             <li>Tailored solutions for your unique business needs.</li>

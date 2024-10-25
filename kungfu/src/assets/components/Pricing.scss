@@ -1,6 +1,11 @@
 $primary-color: #d90429;
 $secondary-color: #f2f2f2;
-
+.h22222{
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
 .pricing {
   background-color: white;
   padding: 60px 20px;
@@ -16,17 +21,19 @@ align-items: center;
       font-size: 32px;
       margin-bottom: 10px;
     }
-
+.p11{  text-align: left;}
     p {
       font-size: 18px;
+    
+
       margin-bottom: 40px;
     }
 
     .promo-price {
-      background-color: $secondary-color;
+    
       padding: 30px;
       border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     
       margin-bottom: 40px;
 
       h3 {
@@ -40,15 +47,6 @@ align-items: center;
       }
     }
 
-    .image-wrapper {
-      margin-bottom: 40px;
-
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-      }
-    }
 
     .cta-button {
       background-color: $primary-color;
@@ -64,6 +62,17 @@ align-items: center;
         background-color: darken($primary-color, 10%);
       }
     }
+  }
+}
+
+.image-wrapper {
+  width: 45%;
+  margin-bottom: 40px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
   }
 }
 

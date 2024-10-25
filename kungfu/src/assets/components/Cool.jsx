@@ -6,13 +6,14 @@ const CoolSection = () => {
   return (
     <div className="cool-section">
       <div className="text-content">
-        <h2>Claim Promo Package</h2>
+        <h2 className=''> <b>Claim Promo Package</b></h2>
         <button className="cta-btn">Submit & Get Started</button>
-        <p>
-          “Thank you for reaching out! Our team will get back to you within 24
+        <p><b>
+          
+        “Thank you for reaching out! Our team will get back to you within 24
           hours to schedule your consultation or process your package. We look
           forward to helping you boost your social media presence!”
-        </p>
+    </b>    </p>
       </div>
       <div className="image-content">
         <img src={claim} alt="Customer Support" />

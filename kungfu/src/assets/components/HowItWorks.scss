@@ -1,13 +1,16 @@
 
 $primary-color: #d90429;
 $secondary-color: #f2f2f2;
-
+.h2222{
+  padding-bottom: 30px;
+}
 .how-it-works {
   background-color: $secondary-color;
   padding: 60px 20px;
   display: flex;
   justify-content: space-between;
-  image-wrapper {
+  .image-wrapper {
+    width: 39%;
     img {
       max-width: 100%;
       height: auto;
@@ -31,15 +34,16 @@ $secondary-color: #f2f2f2;
 
     .steps {
       display: block;
+
      
       gap: 40px;
       margin-bottom: 40px;
 
       .step {
     display: flex;
-    justify-content: space-between;
-     
-        padding: 30px;
+  align-items: center;
+        padding: 10px;
+        gap: 30px;
         border-radius: 8px;
 
         .step-number {
@@ -51,6 +55,7 @@ $secondary-color: #f2f2f2;
 
         h3 {
           font-size: 18px;
+          padding-bottom: 5px;
         }
       }
     }

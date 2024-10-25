@@ -12,7 +12,7 @@ const Navbar = () => {
         onMouseLeave={() => setIsHovered(false)}
         onClick={() => window.open('https://wa.me/your-whatsapp-number', '_blank')}
       >
-        Send Message
+    Get in Touch Now
       </button>
     </nav>
   );
